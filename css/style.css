@@ -8247,7 +8247,7 @@ h1, h2, h3, h4, h5,
       margin: 0 0 10px 0;
       padding: 0;
       list-style: none;
-      font-size: 22px;
+      font-size: 15px;
       font-weight: 500;
       line-height: 1.5; }
       #colorlib-aside #colorlib-main-menu ul li a {
@@ -8255,7 +8255,8 @@ h1, h2, h3, h4, h5,
         text-decoration: none;
         position: relative;
         padding: 10px 0;
-        font-family: "Poppins", Arial, sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
         -webkit-transition: 0.3s;
         -o-transition: 0.3s;
         transition: 0.3s; }
