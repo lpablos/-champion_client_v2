@@ -1,13 +1,17 @@
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif !important;
+}
+#out_side{
+    color: #C84D3F !important;
+}
+.text-red_perso{
+    color: #C84D3F !important;
+}
+.bach_red_personal{
+    background-color: #C84D3F !important;
 }
 
-/* #colorlib-aside {
-    background-color: #1B2631 !important;    
-} */
-/* #colorlib-aside #colorlib-main-menu ul li a {
-    color: white !important;
-} */
- #out_side{
-    color: #C84D3F !important;
- }
+.back_cabecera_personal{
+    background-color: #EFEFEF;;
+}
+
