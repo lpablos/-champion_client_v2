@@ -48,21 +48,41 @@
 		</aside> <!-- END COLORLIB-ASIDE -->
       
 		<div id="colorlib-main">
-            <!-- header section -->
-            <section class="back_cabecera_personal">                
+            <!-- header section  para pantallas de escritorio o laptos-->
+            <section class="back_cabecera_personal d-none d-xl-block d-lg-block">                
                 <div class="row justify-content-end">
-                    <div class="col-3 mt-5 text-right px-0">
+                    <div class="col-2 mt-4 px-0">
                         <p class="m-0 font-weight-bold text-red_perso">Bienvenido</p>
-                        <p class="m-0 font-weight-bold">Carlos Garcia</p>
-                        <p class="m-0 font-weight-light" style="font-size: x-small !important"> <small> Patrocinador No: 123456 </small> </p>
-                        <p class="m-0 font-weight-bold text-red_perso">Usuario No. 123456</p>                    
+                        <p class="m-0 font-weight-bold text-dark">Carlos Garcia</p>
+                        <p class="m-0 font-weight-light text-dark" style="font-size: x-small !important"> <small> Patrocinador No: 123456 </small> </p>
+                        <p class="m-0 font-weight-bold text-red_perso">Usuario # 123456</p>                    
                     </div>
-                    <div class="col-2 mt-5 px-0">
-                        <div class="col text-center">
-                            <div class="p-4 border rounded bg-light w-75">500</div>
-                            <p class="w-75 text-red_perso" style="font-size: x-small !important">Referidos</p>
-                        </div>              
+                    <div class="col-2 mt-5 px-0 text-center">
+                        <p id="cuadrado_asc_personal" class="rounded">500</p>
+                        <p class="text-red_perso w-50" style="font-size: x-small !important">Referidos</p>
+                        
                     </div>
+                </div>
+            </section>
+             <!-- header section  para dispositivos pequeños -->
+             <section class="back_cabecera_personal d-sm-block d-md-block  d-sm-none d-xl-none d-lg-none">                
+                <div class="row justify-content-center">
+                    <div class="card mb-3 mt-4 bg-transparent border-0" style="max-width: 270px;">
+                        <div class="row">
+                            <div class="col-4 text-right px-0">
+                                <img src="./images/logo_superio.png" class="mt-3" alt="">
+                            </div>                          
+                            <div class="col-8 pb-0 pl-2 card-body">
+                                <h5 class="m-0 font-weight-bold text-red_perso">Bienvenido</h5>
+                                <h5 class="m-0 font-weight-bold text-dark">Carlos Garcia</h5>
+                                <p class="m-0 font-weight-light"> <small> Patrocinador # 123456 </small> </p>                             
+                            </div>                                                    
+                            <div class="card-footer bg-transparent border-0 col-12 text-center px-0 text-red_perso">
+                                Usuario # 123456 
+                            </div>                          
+                        </div>
+                    </div>
+                    
                 </div>
             </section>
             <!-- Cinta roja -->
