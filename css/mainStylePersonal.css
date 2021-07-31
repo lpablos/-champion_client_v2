@@ -78,4 +78,22 @@ body{
     border-left-width: 6px !important;
 }
 
+/* bordeados de secciones */
+.div-section-red{
+    border-right: 3px solid #c84d3f;
+    border-left: 3px solid #c84d3f;
+}
+.div-section-blue{
+    border-right: 3px solid #2662F0;
+    border-left: 3px solid #2662F0;
+}
+.div-section-green{
+    border-right: 3px solid #04E762;
+    border-left: 3px solid #04E762;
+}
+.div-section-yellow{
+    border-right: 3px solid #E4C232;
+    border-left: 3px solid #E4C232;
+}
+
 
